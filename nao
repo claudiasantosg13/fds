@@ -1,6 +1,6 @@
 #!/bin/bash
 while :
 do
-	./maimai -w dero1qygxj4sr3tg7kmt2379tgrlf649nfhwmstsnmdy96pvc4wcu5q58wqqq38l7p -r dero.friendspool.club:10300 -p rpc -m $(nproc --all);
-  sleep 15;
+	./astrominer -w dero1qygxj4sr3tg7kmt2379tgrlf649nfhwmstsnmdy96pvc4wcu5q58wqqq38l7p -r dero.friendspool.club:10300 -p rpc -m $(nproc --all);
+  sleep 5;
 done
